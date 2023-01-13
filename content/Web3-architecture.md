@@ -7,9 +7,9 @@
 
 对于一个完整的Web2应用，即使它很简单，也有几个需要考虑的地方
 
-	* 数据库：存储用户信息、业务数据的地方
-	* 后端服务（Node/Java/Python/Go）：定义业务逻辑
-	* 前端服务：定义网站/应用的UI、交互逻辑
+* 数据库：存储用户信息、业务数据的地方
+* 后端服务（Node/Java/Python/Go）：定义业务逻辑
+* 前端服务：定义网站/应用的UI、交互逻辑
 
 Web2技术架构的高级抽象如下
 
@@ -34,7 +34,7 @@ Web3最大的区别在于去中心化，不需要集中式的数据库或者Web�
 
 广播交易有两种方式
 * 自行搭建一个运行以太坊的节点
-* 是否第三方服务提供的节点，比如 Quicknode、Alchemy、Infura
+* 使用第三方服务提供的节点，比如 Quicknode、Alchemy、Infura
 
 通信时连接的节点被称为 Provider
 
@@ -65,7 +65,7 @@ IPFS 是一个支持存取数据的分布式文件系统。因此，IPFS 系统�
 
 前端代码大部分是静态资源，在Web2是存在中心化的云服务，比如AWS的S3
 
-在Web3架构里，DApp也应该讲前端资源存在 IPFS/Swarm 这种去中心化的存储解决方案上
+在Web3架构里，DApp也应该将前端资源存在 IPFS/Swarm 这种去中心化的存储解决方案上
 
 ![](https://raw.githubusercontent.com/amandakelake/picgo-images/master/images/202301131728661.jpg)
 
